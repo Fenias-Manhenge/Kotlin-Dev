@@ -10,4 +10,6 @@
     <color name="background">#C8DFE3</color>
     <color name="text">#5F0910</color>
     <color name="selectedDate">#506773</color>
+    <color name="dark_grey">#BBC7CA</color>
+    <color name="castanho">#B24C1C</color>
 </resources>
