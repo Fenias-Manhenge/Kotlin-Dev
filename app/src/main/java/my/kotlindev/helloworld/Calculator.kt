@@ -105,10 +105,10 @@ class Calculator: AppCompatActivity() {
             txtRes.alpha = 1F
 
             when(char){
-                '-' -> result.text = dotZero ((one.toLong() - two.toLong()).toString())
-                '+' -> result.text = dotZero ((one.toLong() + two.toLong()).toString())
-                '*' -> result.text = dotZero ((one.toLong() * two.toLong()).toString())
-                '/' -> result.text = dotZero ((one.toLong() / two.toLong()).toString())
+                '-' -> result.text = dotZero ((one.toDouble() - two.toDouble()).toString())
+                '+' -> result.text = dotZero ((one.toDouble() + two.toDouble()).toString())
+                '*' -> result.text = dotZero ((one.toDouble() * two.toDouble()).toString())
+                '/' -> result.text = dotZero ((one.toDouble() / two.toDouble()).toString())
                 else-> print("oi")
             }
             txtInput?.text = ""
